@@ -10,6 +10,7 @@ function binarySearch(arr, num) {
         if (num === arr[mid]) {
             return mid
         }
+        // searching left of the array
         if (num < arr[mid]) {
             rightP = mid - 1 
         }

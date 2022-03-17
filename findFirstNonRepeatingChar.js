@@ -26,3 +26,6 @@ function firstNonRepeatingChar(str) {
 
 console.log(firstNonRepeatingChar(string))
 console.log(firstNonRepeatingChar(int))
+
+
+

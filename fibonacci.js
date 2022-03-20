@@ -1,10 +1,10 @@
 // time complexity = O(n^2)
 // space complexity = O(n)
 function fibonacci(n) {
-   if (n == 1) {
+   if (n === 1) {
        return 0
    }
-   else if (n == 2) {
+   else if (n === 2) {
        return 1
    }
    else {
@@ -40,4 +40,8 @@ function fibonacciIterate(n) {
     return arr[n]
 }
 
-console.log(fibonacciIterate(6))
+// console.log(fibonacciIterate(6))
+
+
+
+console.log(findThreeLargestNumbers([ 1, 5, 6]))

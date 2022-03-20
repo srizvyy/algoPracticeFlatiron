@@ -25,5 +25,5 @@ function sumOfPrimes(num) {
     return result 
 }
 
-// console.log(sumOfPrimes(7))
+console.log(sumOfPrimes(6))
 
